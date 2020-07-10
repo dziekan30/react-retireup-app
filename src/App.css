@@ -1,3 +1,8 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-inputs/styles/material.css";
+
 .App {
   text-align: center;
 }
@@ -27,6 +32,39 @@
 .App-link {
   color: #61dafb;
 }
+
+.left-column {
+  float: left;
+  width: 50%;
+  margin-left: 5%;
+
+}
+.right-column {
+  float: left;
+  width: 45%;
+}
+.center-text {
+  color: ##616364;
+  font-style: normal;
+  text-align: center;
+}
+
+.sliderwrap {
+  margin-top: 20px;
+}
+
+.wrap {
+  box-sizing: border-box;
+  height: 100px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  width: 460px;
+}
+
+.labeltext {
+  text-align: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
